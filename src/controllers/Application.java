@@ -15,8 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/Application")
 public class Application extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-	private static final String VUES = "/WEB-INF/views/", DEFVUE = "index.jsp";
-	private static final String INDEX = "/index.jsp", DEFINDEX = "index.jsp";
+	private static final String VUES = "/index.jsp", DEFVUE = "index.jsp";
        
     /**
      * @see HttpServlet#HttpServlet()
@@ -36,15 +35,15 @@ public class Application extends HttpServlet {
 		String maVue = VUES + DEFVUE;
 		try{
 			if(action == null){
-				maVue = INDEX;
+				maVue = VUES;
 			}else if(action.equals("accueil")){ 
-				maVue = INDEX;
-			} else if(action.equals("creations")){
-				maVue = VUES + "creations.jsp";
-			} else if(action.equals("a-propos")){
-				maVue = VUES + "aPropos.jsp";
-			}else if(action.equals("contact")){
-				maVue = VUES + "contact.jsp";
+				maVue = VUES;
+			} else if(action.equals("action1")){
+				maVue = VUES + "action1.jsp";
+			} else if(action.equals("action2")){
+				maVue = VUES + "action2.jsp";
+			}else if(action.equals("action3")){
+				maVue = VUES + "action3.jsp";
 			}
 		}catch(Exception e){
 			maVue = VUES + "exception.jsp";

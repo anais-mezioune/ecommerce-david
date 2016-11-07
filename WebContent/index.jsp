@@ -35,8 +35,8 @@ Released   : 20140310
 	<div id="menu-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<li class="current_page_item"><a href="#">Accueil</a></li>
-				<li><a href="${pageContext.request.contextPath}/Creations/creations.jsp">Créations</a></li>
+				<li class="current_page_item"><a href="index.jsp">Accueil</a></li>
+				<li><a href="${pageContext.request.contextPath}/views/Creations/creations.jsp">Créations</a></li>
 				<li><a href="${pageContext.request.contextPath}/aPropos/aPropos.jsp">A Propos</a></li>
 				<li><a href="${pageContext.request.contextPath}/Contact/contact.jsp">Contact</a></li>
 			</ul>
