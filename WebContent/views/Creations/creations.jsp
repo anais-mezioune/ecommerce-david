@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h1>Mes créations</h1>
+	<h1>Créations Antre Manuel'Art</h1>
 </body>
 </html>

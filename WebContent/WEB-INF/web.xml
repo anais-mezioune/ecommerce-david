@@ -9,12 +9,4 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
-	<servlet>
-	    <servlet-name>Creations</servlet-name>  
-	    <servlet-class>Creations</servlet-class>  
-	</servlet>
-	 <servlet-mapping>
-	    <servlet-name>Creations</servlet-name>   
-	    <url-pattern>/views/Creations/</url-pattern>  
-	</servlet-mapping>
 </web-app>
